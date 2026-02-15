@@ -33,7 +33,6 @@ app.post("/contacts", async (req, res) => {
       data: contact,
     });
   } catch (err) {
-    // Catch only handling errors related to server issues, 500 status code
     console.log(err);
   }
 });
